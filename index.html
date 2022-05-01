@@ -25,34 +25,28 @@
 
         // Write a function called capitalize that takes a string and returns that string with only the first letter capitalized.Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 
-        
-
-        // at the get the first part of the function to work.
-        
-        // function capitalize(start) {
-        //     () => start.toLowerCase();
-        //     () => 
-        // }
-        // (capitalize('jfkdsDDDddddEEEEEED');
-                
-        
-        // function favoriteAnimal(animal) {
-        //     console.log(animal + " is my favorite animal!")
-        //     }
-
-        //     favoriteAnimal('Goat')
 
 
             let capitalize = (stringStart) => {
-                let lowerStr = stringStart.toLowerCase();
-                let firstChar = stringStart.charAt(0);
-                let otherChar = lowerStr.slice(1);
-                let capChar0 = firstChar.toUpperCase();
-                let finish = console.log(capChar0 + otherChar);
+                let lowerStr = stringStart.toLowerCase(); // make them all lower
+                let firstChar = stringStart.charAt(0); // grab the first string character 
+                let otherChar = lowerStr.slice(1); // grab the rest of the string thats been lowercased if not already 
+                let capChar0 = firstChar.toUpperCase(); // capitalize first character
+                let finish = console.log(capChar0 + otherChar); // put the two parts back together
                 return finish;
         }
         
-        capitalize("sjflsieNKNNInibn")
+                capitalize("sdddflsieNKNNInibn")
+                
+
+        function lastLetter(x) {
+            let a = (x).slice(-1);
+             return a;   
+        } 
+                
+            
+        console.log(lastLetter("abcd"));
+                
             
       
 
